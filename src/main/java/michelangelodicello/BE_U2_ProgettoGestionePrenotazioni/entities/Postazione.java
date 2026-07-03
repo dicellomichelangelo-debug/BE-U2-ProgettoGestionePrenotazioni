@@ -11,7 +11,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @NoArgsConstructor
-@ToString
+@ToString(exclude = "edificio")
 public class Postazione {
 
     @Id
